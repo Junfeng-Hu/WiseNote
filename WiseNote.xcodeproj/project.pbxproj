@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		930E36BF23274FDA00AC69EF /* WiseUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 930E36BE23274FDA00AC69EF /* WiseUtility.m */; };
+		932C3E9223266284002F07A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 932C3E9123266284002F07A1 /* AppDelegate.m */; };
+		932C3E9A23266285002F07A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 932C3E9923266285002F07A1 /* Assets.xcassets */; };
+		932C3E9D23266285002F07A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 932C3E9B23266285002F07A1 /* LaunchScreen.storyboard */; };
+		932C3EA023266285002F07A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 932C3E9F23266285002F07A1 /* main.m */; };
+		932C3EAA23266285002F07A1 /* WiseNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 932C3EA923266285002F07A1 /* WiseNoteTests.m */; };
+		932C3EB523266285002F07A1 /* WiseNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 932C3EB423266285002F07A1 /* WiseNoteUITests.m */; };
+		933E0EBF2327431A00F5A1F2 /* WiseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 933E0EBE2327431A00F5A1F2 /* WiseTableViewCell.m */; };
+		934E991A23310F6600785101 /* BlankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 934E991923310F6600785101 /* BlankView.m */; };
+		934E991D233112EB00785101 /* RetryView.m in Sources */ = {isa = PBXBuildFile; fileRef = 934E991C233112EB00785101 /* RetryView.m */; };
+		9398A96B2333B9FF00F9C09B /* TextToImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9398A96A2333B9FF00F9C09B /* TextToImage.m */; };
+		93DEEB5A23267E4000A1C38F /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DEEB5923267E4000A1C38F /* BaseViewController.m */; };
+		93DEEB5D23267E5900A1C38F /* WiseListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DEEB5C23267E5900A1C38F /* WiseListViewController.m */; };
+		93DEEB602326877800A1C38F /* WiseDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DEEB5F2326877800A1C38F /* WiseDetailViewController.m */; };
+		93DEEB6323268CEC00A1C38F /* WisePostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DEEB6223268CEC00A1C38F /* WisePostViewController.m */; };
+		93DEEB672326908700A1C38F /* WisePersistentManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 93DEEB662326908700A1C38F /* WisePersistentManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		932C3EA623266285002F07A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 932C3E8523266284002F07A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 932C3E8C23266284002F07A1;
+			remoteInfo = WiseNote;
+		};
+		932C3EB123266285002F07A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 932C3E8523266284002F07A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 932C3E8C23266284002F07A1;
+			remoteInfo = WiseNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		930E36BD23274FDA00AC69EF /* WiseUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiseUtility.h; sourceTree = "<group>"; };
+		930E36BE23274FDA00AC69EF /* WiseUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiseUtility.m; sourceTree = "<group>"; };
+		932C3E8D23266284002F07A1 /* WiseNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiseNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		932C3E9023266284002F07A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		932C3E9123266284002F07A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		932C3E9923266285002F07A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		932C3E9C23266285002F07A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		932C3E9E23266285002F07A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932C3E9F23266285002F07A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		932C3EA523266285002F07A1 /* WiseNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiseNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		932C3EA923266285002F07A1 /* WiseNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiseNoteTests.m; sourceTree = "<group>"; };
+		932C3EAB23266285002F07A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		932C3EB023266285002F07A1 /* WiseNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiseNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		932C3EB423266285002F07A1 /* WiseNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiseNoteUITests.m; sourceTree = "<group>"; };
+		932C3EB623266285002F07A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933E0EBD2327431A00F5A1F2 /* WiseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiseTableViewCell.h; sourceTree = "<group>"; };
+		933E0EBE2327431A00F5A1F2 /* WiseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiseTableViewCell.m; sourceTree = "<group>"; };
+		934E991823310F6600785101 /* BlankView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlankView.h; sourceTree = "<group>"; };
+		934E991923310F6600785101 /* BlankView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlankView.m; sourceTree = "<group>"; };
+		934E991B233112EB00785101 /* RetryView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RetryView.h; sourceTree = "<group>"; };
+		934E991C233112EB00785101 /* RetryView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetryView.m; sourceTree = "<group>"; };
+		9398A9692333B9FF00F9C09B /* TextToImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextToImage.h; sourceTree = "<group>"; };
+		9398A96A2333B9FF00F9C09B /* TextToImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextToImage.m; sourceTree = "<group>"; };
+		93DEEB5823267E4000A1C38F /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		93DEEB5923267E4000A1C38F /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		93DEEB5B23267E5900A1C38F /* WiseListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiseListViewController.h; sourceTree = "<group>"; };
+		93DEEB5C23267E5900A1C38F /* WiseListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiseListViewController.m; sourceTree = "<group>"; };
+		93DEEB5E2326877800A1C38F /* WiseDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiseDetailViewController.h; sourceTree = "<group>"; };
+		93DEEB5F2326877800A1C38F /* WiseDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiseDetailViewController.m; sourceTree = "<group>"; };
+		93DEEB6123268CEC00A1C38F /* WisePostViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WisePostViewController.h; sourceTree = "<group>"; };
+		93DEEB6223268CEC00A1C38F /* WisePostViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WisePostViewController.m; sourceTree = "<group>"; };
+		93DEEB652326908700A1C38F /* WisePersistentManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WisePersistentManager.h; sourceTree = "<group>"; };
+		93DEEB662326908700A1C38F /* WisePersistentManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WisePersistentManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		932C3E8A23266284002F07A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932C3EA223266285002F07A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932C3EAD23266285002F07A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		932C3E8423266284002F07A1 = {
+			isa = PBXGroup;
+			children = (
+				932C3E8F23266284002F07A1 /* WiseNote */,
+				932C3EA823266285002F07A1 /* WiseNoteTests */,
+				932C3EB323266285002F07A1 /* WiseNoteUITests */,
+				932C3E8E23266284002F07A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		932C3E8E23266284002F07A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				932C3E8D23266284002F07A1 /* WiseNote.app */,
+				932C3EA523266285002F07A1 /* WiseNoteTests.xctest */,
+				932C3EB023266285002F07A1 /* WiseNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		932C3E8F23266284002F07A1 /* WiseNote */ = {
+			isa = PBXGroup;
+			children = (
+				934E991523310F0600785101 /* CustomView */,
+				93DEEB642326905900A1C38F /* Common */,
+				933E0EC22327434800F5A1F2 /* WisePostViewController */,
+				933E0EC12327433600F5A1F2 /* WiseDetailViewController */,
+				933E0EC02327432800F5A1F2 /* WiseListViewController */,
+				93DEEB5723267DF700A1C38F /* BaseViewController */,
+				932C3E9023266284002F07A1 /* AppDelegate.h */,
+				932C3E9123266284002F07A1 /* AppDelegate.m */,
+				932C3E9923266285002F07A1 /* Assets.xcassets */,
+				932C3E9B23266285002F07A1 /* LaunchScreen.storyboard */,
+				932C3E9E23266285002F07A1 /* Info.plist */,
+				932C3E9F23266285002F07A1 /* main.m */,
+			);
+			path = WiseNote;
+			sourceTree = "<group>";
+		};
+		932C3EA823266285002F07A1 /* WiseNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				932C3EA923266285002F07A1 /* WiseNoteTests.m */,
+				932C3EAB23266285002F07A1 /* Info.plist */,
+			);
+			path = WiseNoteTests;
+			sourceTree = "<group>";
+		};
+		932C3EB323266285002F07A1 /* WiseNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				932C3EB423266285002F07A1 /* WiseNoteUITests.m */,
+				932C3EB623266285002F07A1 /* Info.plist */,
+			);
+			path = WiseNoteUITests;
+			sourceTree = "<group>";
+		};
+		933E0EBC232742F600F5A1F2 /* WiseTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				933E0EBD2327431A00F5A1F2 /* WiseTableViewCell.h */,
+				933E0EBE2327431A00F5A1F2 /* WiseTableViewCell.m */,
+			);
+			name = WiseTableViewCell;
+			sourceTree = "<group>";
+		};
+		933E0EC02327432800F5A1F2 /* WiseListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93DEEB5B23267E5900A1C38F /* WiseListViewController.h */,
+				93DEEB5C23267E5900A1C38F /* WiseListViewController.m */,
+			);
+			name = WiseListViewController;
+			sourceTree = "<group>";
+		};
+		933E0EC12327433600F5A1F2 /* WiseDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93DEEB5E2326877800A1C38F /* WiseDetailViewController.h */,
+				93DEEB5F2326877800A1C38F /* WiseDetailViewController.m */,
+			);
+			name = WiseDetailViewController;
+			sourceTree = "<group>";
+		};
+		933E0EC22327434800F5A1F2 /* WisePostViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93DEEB6123268CEC00A1C38F /* WisePostViewController.h */,
+				93DEEB6223268CEC00A1C38F /* WisePostViewController.m */,
+			);
+			name = WisePostViewController;
+			sourceTree = "<group>";
+		};
+		934E991523310F0600785101 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				934E991723310F2800785101 /* RetryView */,
+				934E991623310F1F00785101 /* BlankView */,
+				933E0EBC232742F600F5A1F2 /* WiseTableViewCell */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
+		934E991623310F1F00785101 /* BlankView */ = {
+			isa = PBXGroup;
+			children = (
+				934E991823310F6600785101 /* BlankView.h */,
+				934E991923310F6600785101 /* BlankView.m */,
+			);
+			name = BlankView;
+			sourceTree = "<group>";
+		};
+		934E991723310F2800785101 /* RetryView */ = {
+			isa = PBXGroup;
+			children = (
+				934E991B233112EB00785101 /* RetryView.h */,
+				934E991C233112EB00785101 /* RetryView.m */,
+			);
+			name = RetryView;
+			sourceTree = "<group>";
+		};
+		93DEEB5723267DF700A1C38F /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93DEEB5823267E4000A1C38F /* BaseViewController.h */,
+				93DEEB5923267E4000A1C38F /* BaseViewController.m */,
+			);
+			name = BaseViewController;
+			sourceTree = "<group>";
+		};
+		93DEEB642326905900A1C38F /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				93DEEB652326908700A1C38F /* WisePersistentManager.h */,
+				93DEEB662326908700A1C38F /* WisePersistentManager.m */,
+				930E36BD23274FDA00AC69EF /* WiseUtility.h */,
+				930E36BE23274FDA00AC69EF /* WiseUtility.m */,
+				9398A9692333B9FF00F9C09B /* TextToImage.h */,
+				9398A96A2333B9FF00F9C09B /* TextToImage.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		932C3E8C23266284002F07A1 /* WiseNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932C3EB923266285002F07A1 /* Build configuration list for PBXNativeTarget "WiseNote" */;
+			buildPhases = (
+				932C3E8923266284002F07A1 /* Sources */,
+				932C3E8A23266284002F07A1 /* Frameworks */,
+				932C3E8B23266284002F07A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiseNote;
+			productName = WiseNote;
+			productReference = 932C3E8D23266284002F07A1 /* WiseNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		932C3EA423266285002F07A1 /* WiseNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932C3EBC23266285002F07A1 /* Build configuration list for PBXNativeTarget "WiseNoteTests" */;
+			buildPhases = (
+				932C3EA123266285002F07A1 /* Sources */,
+				932C3EA223266285002F07A1 /* Frameworks */,
+				932C3EA323266285002F07A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				932C3EA723266285002F07A1 /* PBXTargetDependency */,
+			);
+			name = WiseNoteTests;
+			productName = WiseNoteTests;
+			productReference = 932C3EA523266285002F07A1 /* WiseNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		932C3EAF23266285002F07A1 /* WiseNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 932C3EBF23266285002F07A1 /* Build configuration list for PBXNativeTarget "WiseNoteUITests" */;
+			buildPhases = (
+				932C3EAC23266285002F07A1 /* Sources */,
+				932C3EAD23266285002F07A1 /* Frameworks */,
+				932C3EAE23266285002F07A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				932C3EB223266285002F07A1 /* PBXTargetDependency */,
+			);
+			name = WiseNoteUITests;
+			productName = WiseNoteUITests;
+			productReference = 932C3EB023266285002F07A1 /* WiseNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		932C3E8523266284002F07A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = WiseApp;
+				TargetAttributes = {
+					932C3E8C23266284002F07A1 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					932C3EA423266285002F07A1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 932C3E8C23266284002F07A1;
+					};
+					932C3EAF23266285002F07A1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 932C3E8C23266284002F07A1;
+					};
+				};
+			};
+			buildConfigurationList = 932C3E8823266284002F07A1 /* Build configuration list for PBXProject "WiseNote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 932C3E8423266284002F07A1;
+			productRefGroup = 932C3E8E23266284002F07A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				932C3E8C23266284002F07A1 /* WiseNote */,
+				932C3EA423266285002F07A1 /* WiseNoteTests */,
+				932C3EAF23266285002F07A1 /* WiseNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		932C3E8B23266284002F07A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932C3E9D23266285002F07A1 /* LaunchScreen.storyboard in Resources */,
+				932C3E9A23266285002F07A1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932C3EA323266285002F07A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932C3EAE23266285002F07A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		932C3E8923266284002F07A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934E991D233112EB00785101 /* RetryView.m in Sources */,
+				932C3EA023266285002F07A1 /* main.m in Sources */,
+				933E0EBF2327431A00F5A1F2 /* WiseTableViewCell.m in Sources */,
+				93DEEB5D23267E5900A1C38F /* WiseListViewController.m in Sources */,
+				930E36BF23274FDA00AC69EF /* WiseUtility.m in Sources */,
+				93DEEB5A23267E4000A1C38F /* BaseViewController.m in Sources */,
+				934E991A23310F6600785101 /* BlankView.m in Sources */,
+				932C3E9223266284002F07A1 /* AppDelegate.m in Sources */,
+				93DEEB6323268CEC00A1C38F /* WisePostViewController.m in Sources */,
+				93DEEB672326908700A1C38F /* WisePersistentManager.m in Sources */,
+				93DEEB602326877800A1C38F /* WiseDetailViewController.m in Sources */,
+				9398A96B2333B9FF00F9C09B /* TextToImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932C3EA123266285002F07A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932C3EAA23266285002F07A1 /* WiseNoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		932C3EAC23266285002F07A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932C3EB523266285002F07A1 /* WiseNoteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		932C3EA723266285002F07A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 932C3E8C23266284002F07A1 /* WiseNote */;
+			targetProxy = 932C3EA623266285002F07A1 /* PBXContainerItemProxy */;
+		};
+		932C3EB223266285002F07A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 932C3E8C23266284002F07A1 /* WiseNote */;
+			targetProxy = 932C3EB123266285002F07A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		932C3E9B23266285002F07A1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				932C3E9C23266285002F07A1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		932C3EB723266285002F07A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		932C3EB823266285002F07A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		932C3EBA23266285002F07A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6KBALAZYW;
+				INFOPLIST_FILE = WiseNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiseapp.WiseNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		932C3EBB23266285002F07A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6KBALAZYW;
+				INFOPLIST_FILE = WiseNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiseapp.WiseNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		932C3EBD23266285002F07A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6KBALAZYW;
+				INFOPLIST_FILE = WiseNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiseapp.WiseNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiseNote.app/WiseNote";
+			};
+			name = Debug;
+		};
+		932C3EBE23266285002F07A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6KBALAZYW;
+				INFOPLIST_FILE = WiseNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiseapp.WiseNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiseNote.app/WiseNote";
+			};
+			name = Release;
+		};
+		932C3EC023266285002F07A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6KBALAZYW;
+				INFOPLIST_FILE = WiseNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiseapp.WiseNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiseNote;
+			};
+			name = Debug;
+		};
+		932C3EC123266285002F07A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6KBALAZYW;
+				INFOPLIST_FILE = WiseNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wiseapp.WiseNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiseNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		932C3E8823266284002F07A1 /* Build configuration list for PBXProject "WiseNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932C3EB723266285002F07A1 /* Debug */,
+				932C3EB823266285002F07A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932C3EB923266285002F07A1 /* Build configuration list for PBXNativeTarget "WiseNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932C3EBA23266285002F07A1 /* Debug */,
+				932C3EBB23266285002F07A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932C3EBC23266285002F07A1 /* Build configuration list for PBXNativeTarget "WiseNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932C3EBD23266285002F07A1 /* Debug */,
+				932C3EBE23266285002F07A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		932C3EBF23266285002F07A1 /* Build configuration list for PBXNativeTarget "WiseNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932C3EC023266285002F07A1 /* Debug */,
+				932C3EC123266285002F07A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 932C3E8523266284002F07A1 /* Project object */;
+}
